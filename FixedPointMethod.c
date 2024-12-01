@@ -12,7 +12,7 @@ double fixed_point(double initial_guess, double tolerance, int max_iterations);
 
 int main() {
     double initial_guess = 0.5;
-    double tolerance = 1e-7;
+    double tolerance = 0.05;
     int max_iterations = 100;
     
     double root = fixed_point(initial_guess, tolerance, max_iterations);
